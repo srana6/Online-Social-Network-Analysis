@@ -1,0 +1,21 @@
+1) I have collected the json twitter data from the twitter page of Edward Snowden
+2) After fetching the data I fetched the tweets and stored in tweets.txt file.
+3) I took the followers of the 10 users who tweeted on Snowden's twitter page
+4) I stored the follower data in followerdata.json file
+5) In cluster.py I extracted the most common followers of th 10 followers.
+6) I detected the communites by grivan newman algorithm and divided the data into cluster and represented a garph.
+7) In classify.py I used affin to get label for each tweet. I took the tweets from tweet.txt and split them and then tokenize
+8) I labeled the tweets 1 to positive tweet and 0 to negative tweet
+
+Conclusion--
+
+The conclusion I made from my analysis is that  network analysis provides insights into social media that can help individuals and 
+organizations make informed decisions about online conversations. We can analyze the sentiments of people like political candidate team can do the analysis
+by seeing the sentiments in twitter. Also community detection plays an important role in analysis, like what group of people have same attributes, same likes
+dislikes and so on.
+
+Network maps can reveal the structures of the crowd and highlight strategic locations or roles in these webs of connection. 
+By mapping we can learn about the most common and best uses for these communication services.
+Additionally, we can analyze the “natural” structure of a conversation around their core topics could profit from adjustment. 
+For example, a brand may want to cultivate community, or an in-group might want to open up to outsiders. Using these maps, 
+participants can assess the type of social media network in which they participate and set a target for what they want their group to be like.
